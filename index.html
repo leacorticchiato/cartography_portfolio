@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lea Corticchiato — Cartography Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="wrap">
+    <h1>Lea Corticchiato — Cartography Portfolio</h1>
+    <p>Selected analytical, thematic, and interactive maps.</p>
+  </header>
+
+  <main class="wrap gallery">
+    <a class="card" href="projects/wjcc-inequality/">
+      <img src="projects/wjcc-inequality/thumbnails/cover.jpg" alt="WJCC Inequality map (thumbnail)">
+      <h2>WJCC Inequality</h2>
+      <p>Subsidized housing × school zoning (2015–2023).</p>
+    </a>
+    <a class="card" href="projects/wetlands-change/">
+      <img src="projects/wetlands-change/thumbnails/cover.jpg" alt="Wetlands change (thumbnail)">
+      <h2>Biscayne Bay Wetlands</h2>
+      <p>NDVI & Tasseled Cap change detection (2009–2023).</p>
+    </a>
+    <a class="card" href="projects/nato-incursions/">
+      <img src="projects/nato-incursions/thumbnails/cover.jpg" alt="NATO tracker (thumbnail)">
+      <h2>NATO Incursions Tracker</h2>
+      <p>Interactive AOI updates, time slider, hosted layers.</p>
+    </a>
+  </main>
+
+  <footer class="wrap">
+    <p>© <span id="yr"></span> Lea Corticchiato • <a href="README.md">About/README</a></p>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
