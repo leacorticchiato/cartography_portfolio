@@ -7,32 +7,172 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="wrap">
-    <h1>Lea Corticchiato — Cartography Portfolio</h1>
-    <p>Selected analytical, thematic, and interactive maps.</p>
+ <body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Lea Corticchiato – Cartography & Geospatial Analysis</h1>
+      <p>Selected academic and professional maps, StoryMaps, and operational graphics.</p>
+    </div>
   </header>
 
-  <main class="wrap gallery">
-    <a class="card" href="projects/wjcc-inequality/">
-      <img src="projects/wjcc-inequality/thumbnails/cover.jpg" alt="WJCC Inequality map (thumbnail)">
-      <h2>WJCC Inequality</h2>
-      <p>Subsidized housing × school zoning (2015–2023).</p>
-    </a>
-    <a class="card" href="projects/wetlands-change/">
-      <img src="projects/wetlands-change/thumbnails/cover.jpg" alt="Wetlands change (thumbnail)">
-      <h2>Biscayne Bay Wetlands</h2>
-      <p>NDVI & Tasseled Cap change detection (2009–2023).</p>
-    </a>
-    <a class="card" href="projects/nato-incursions/">
-      <img src="projects/nato-incursions/thumbnails/cover.jpg" alt="NATO tracker (thumbnail)">
-      <h2>NATO Incursions Tracker</h2>
-      <p>Interactive AOI updates, time slider, hosted layers.</p>
-    </a>
-  </main>
+  <main class="container">
 
-  <footer class="wrap">
-    <p>© <span id="yr"></span> Lea Corticchiato • <a href="README.md">About/README</a></p>
-  </footer>
-  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+    <!-- Academic Projects -->
+    <section id="academic">
+      <h2>Academic Projects</h2>
+
+      <!-- WJCC Inequality -->
+      <article class="project-card">
+        <img src="projects/wjcc-inequality.png"
+             alt="Map of subsidized housing and school zones in Williamsburg–James City County">
+        <div class="project-text">
+          <h3>WJCC Inequality: Housing, School Zoning, and Funding</h3>
+          <p>
+            Final project for Geovisualization &amp; Cartography. This map overlays subsidized housing,
+            middle school attendance zones, and per-pupil funding to visualize local inequality
+            in Williamsburg–James City County (VA).
+          </p>
+          <ul class="project-meta">
+            <li><strong>Tools:</strong> ArcGIS Pro, ArcGIS Online</li>
+            <li><strong>Techniques:</strong> choropleths, proportional symbols, custom legend &amp; layout</li>
+          </ul>
+          <a href="projects/wjcc-inequality.png" target="_blank" rel="noopener">
+            View full-size map
+          </a>
+        </div>
+      </article>
+
+      <!-- Unicorn Habitat StoryMap (no local image, StoryMap link only) -->
+      <article class="project-card">
+        <div class="project-text">
+          <h3>Unicorn Habitat Suitability Study (StoryMap)</h3>
+          <p>
+            A playful but technically rigorous suitability analysis using terrain, land cover, and
+            accessibility layers to model optimal unicorn habitat, presented as an interactive StoryMap.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Tools:</strong> ArcGIS Pro, ArcGIS StoryMaps</li>
+            <li><strong>Techniques:</strong> raster suitability modeling, reclassification, weighted overlay</li>
+          </ul>
+          <!-- TODO: Replace this URL with your actual StoryMap link -->
+          <a href="https://storymaps.arcgis.com/stories/a71318b901534c369eff12e735dc870c" target="_blank" rel="noopener">
+            Open Unicorn Habitat StoryMap
+          </a>
+        </div>
+      </article>
+
+      <!-- Miami Wetlands StoryMap (no local image, StoryMap link only) -->
+      <article class="project-card">
+        <div class="project-text">
+          <h3>Wetland Loss &amp; Land Cover Change in South Miami-Dade (StoryMap)</h3>
+          <p>
+            Remote sensing project tracking wetland disruption and quarry expansion between Florida City,
+            the Everglades Outpost, and Bayfront Park from 2009–2023 using multi-temporal satellite imagery.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Tools:</strong> ArcGIS Pro / QGIS, ArcGIS StoryMaps</li>
+            <li><strong>Techniques:</strong> NDVI, Tasseled Cap indices, change detection</li>
+          </ul>
+          <!-- TODO: Replace this URL with your actual StoryMap link -->
+          <a href="https://storymaps.arcgis.com/stories/aa78bb0bf00d42b99b1c32acf56160ef" target="_blank" rel="noopener">
+            Open Miami Wetlands StoryMap
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Professional Products -->
+    <section id="professional">
+      <h2>Professional Products – Institute for the Study of War</h2>
+
+      <!-- Phase Zero map (use first PNG as main) -->
+      <article class="project-card">
+        <img src="projects/phase-zero-map-1.png"
+             alt="Map of Russian Phase Zero operations in Europe, showing airspace violations and malign activity">
+        <div class="project-text">
+          <h3>Russian Phase Zero Operations in Europe</h3>
+          <p>
+            Operational map series visualizing Russian “Phase Zero” hybrid operations across Europe —
+            including airspace violations, sabotage, espionage cases, and other malign activity — for ISW’s
+            Russian Offensive Campaign Assessment and map room.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Employer:</strong> Institute for the Study of War</li>
+            <li><strong>Tools:</strong> ArcGIS Pro, ArcGIS Online</li>
+          </ul>
+          <p class="project-links">
+            <a href="projects/phase-zero-map-1.png" target="_blank" rel="noopener">View map (version 1)</a><br>
+            <a href="projects/phase-zero-map-2.png" target="_blank" rel="noopener">View map (version 2)</a>
+          </p>
+        </div>
+      </article>
+
+      <!-- Strike graphic (show both as a mini gallery) -->
+      <article class="project-card">
+        <div class="project-gallery">
+          <img src="projects/strike-graphic-1.jpg" alt="Strike graphic version 1">
+          <img src="projects/strike-graphic-2.png" alt="Strike graphic version 2">
+        </div>
+        <div class="project-text">
+          <h3>US &amp; Allied Strike Graphic</h3>
+          <p>
+            High-tempo strike graphics used in ISW’s real-time coverage of US and allied strikes.
+            Built from ISW’s operational datasets and updated rapidly for media, policymakers,
+            and the public.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Employer:</strong> Institute for the Study of War</li>
+            <li><strong>Tools:</strong> ArcGIS Pro, Map Room templates, Adobe Illustrator</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- China–Taiwan maps -->
+      <article class="project-card">
+        <div class="project-gallery">
+          <img src="projects/china-taiwan-1.png" alt="Map of PLA air incursions into Taiwan’s ADIZ">
+          <img src="projects/china-taiwan-2.png" alt="Map of regional hotspots along China’s maritime periphery">
+        </div>
+        <div class="project-text">
+          <h3>China–Taiwan Air &amp; Maritime Incursions</h3>
+          <p>
+            Series of situational maps showing PLA air and naval activity around Taiwan and the wider
+            maritime periphery, contextualizing incursions with alliances, air defense identification
+            zones, and key maritime chokepoints.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Employer:</strong> Institute for the Study of War</li>
+            <li><strong>Tools:</strong> ArcGIS Pro, custom symbology</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- You can add Ukraine daily maps later when you export a few PNGs -->
+      <!--
+      <article class="project-card">
+        <div class="project-gallery">
+          <img src="projects/ukraine-daily-1.png" alt="Ukraine control-of-terrain map example 1">
+          <img src="projects/ukraine-daily-2.png" alt="Ukraine control-of-terrain map example 2">
+          <img src="projects/ukraine-daily-3.png" alt="Ukraine control-of-terrain map example 3">
+        </div>
+        <div class="project-text">
+          <h3>Daily Ukraine Control-of-Terrain Mapping</h3>
+          <p>...</p>
+        </div>
+      </article>
+      -->
+
+    </section>
+
+    <!-- Press & Mentions placeholder -->
+    <section id="press">
+      <h2>Press &amp; Mentions</h2>
+      <p>
+        Selected media outlets have referenced ISW’s analysis and mapping work associated with these
+        products. Links to those articles will go here.
+      </p>
+    </section>
+
+  </main>
 </body>
 </html>
