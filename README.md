@@ -1,6 +1,8 @@
-# cartography_portfolio
-Insight into my cartographic works.
+# Cartography Portfolio
 
+A selection of professional and academic cartographic work focused on conflict mapping, geospatial analysis, and visual storytelling.
+
+Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualization pipelines. Projects range from operational conflict mapping to environmental change detection and academic cartography.
 ---
 
 ## Contents
