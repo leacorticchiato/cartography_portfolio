@@ -71,8 +71,3 @@ Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualiza
 
 ---
 
-## Notes
-If an image does not render:
-1. Confirm the file is in `/projects/`
-2. Confirm the filename matches *exactly* (case, hyphens, extension)
-3. Confirm the extension (`.png` vs `.jpg`)
