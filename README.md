@@ -2,7 +2,7 @@
 
 A selection of professional and academic cartographic work focused on conflict mapping, geospatial analysis, and visual storytelling.
 
-Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualization pipelines. Projects range from operational conflict mapping to environmental change detection and academic cartography.
+Tools include ArcGIS Pro, Python, SQL, and custom data visualization pipelines. Projects range from operational conflict mapping to graphical representation and academic cartography.
 ---
 
 ## Contents
@@ -22,6 +22,7 @@ Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualiza
 ### Assessed Russian Gains in Ukraine (Map 2)
 ![Assessed Russian Gains in Ukraine - Map 2](projects/assessed-russian-gains-in-ukraine-2.png)
 
+*ArcGIS Pro · November 2025 · Frontline area calculation and visualization*
 
 ---
 
@@ -42,6 +43,7 @@ Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualiza
 ### Strike Graphic (Vertical)
 ![Strike Graphic Vertical](projects/strike-graphic-vertical.png)
 
+*ArcGIS Pro/Excel · 2025-2026 · Operational strike tracking and database building/management*
 ---
 
 ## China / Taiwan
@@ -52,6 +54,7 @@ Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualiza
 ### China–Taiwan (Map 2)
 ![China Taiwan 2](projects/china-taiwan-2.png)
 
+*ArcGIS Pro · August 2025 · Satellite vessel detection*
 ---
 
 ## Moldova
@@ -62,6 +65,7 @@ Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualiza
 ### Moldova Map (2)
 ![Moldova Map 2](projects/moldova-map-2.png)
 
+*ArcGIS Pro · September 2025 · OSINT mapping*
 ---
 
 ## US / Local Inequality
@@ -69,5 +73,6 @@ Tools include ArcGIS Pro, Python, remote sensing workflows, and custom visualiza
 ### WJCC Inequality
 ![WJCC Inequality](projects/wjcc-inequality.png)
 
+*ArcGIS Pro/Census Data · April 2025 · Academic mapping*
 ---
 
