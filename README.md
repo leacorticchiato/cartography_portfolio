@@ -68,6 +68,7 @@ Tools include ArcGIS Pro, Python, SQL, and custom data visualization pipelines. 
 ![Moldova Map 2](projects/moldova-map-2.png)
 
 *ArcGIS Pro · September 2025 · OSINT mapping*
+
 ---
 
 ## US / Local Inequality
