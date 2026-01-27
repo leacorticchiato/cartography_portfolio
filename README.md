@@ -44,6 +44,7 @@ Tools include ArcGIS Pro, Python, SQL, and custom data visualization pipelines. 
 ![Strike Graphic Vertical](projects/strike-graphic-vertical.png)
 
 *ArcGIS Pro/Excel · 2025-2026 · Operational strike tracking and database building/management*
+
 ---
 
 ## China / Taiwan
@@ -55,6 +56,7 @@ Tools include ArcGIS Pro, Python, SQL, and custom data visualization pipelines. 
 ![China Taiwan 2](projects/china-taiwan-2.png)
 
 *ArcGIS Pro · August 2025 · Satellite vessel detection*
+
 ---
 
 ## Moldova
@@ -74,5 +76,6 @@ Tools include ArcGIS Pro, Python, SQL, and custom data visualization pipelines. 
 ![WJCC Inequality](projects/wjcc-inequality.png)
 
 *ArcGIS Pro/Census Data · April 2025 · Academic mapping*
+
 ---
 
